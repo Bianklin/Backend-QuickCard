@@ -1,0 +1,19 @@
+{
+  "name": "serie-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Bianklin/serie-node.git",
+  "author": "Bianklin Bessa Rizzi <bianklinb@gmail.com>",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "sucrase": "^3.10.1"
+  }
+}
