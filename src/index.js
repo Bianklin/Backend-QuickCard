@@ -6,6 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-require('./controllers/authController')(app);
+require('./controllers/autenticacaoEstudante')(app);
+require('./controllers/autenticacaoCronograma')(app);
 
 app.listen(3000);

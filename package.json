@@ -2,7 +2,7 @@
   "name": "serie-node",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Bianklin/serie-node.git",
+  "repository": "https://github.com/henrique770/Backend-QuickCard",
   "author": "Bianklin Bessa Rizzi <bianklinb@gmail.com>",
   "scripts": {
     "dev": "nodemon src/index.js"
